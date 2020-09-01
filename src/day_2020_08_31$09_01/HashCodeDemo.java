@@ -1,3 +1,5 @@
+package day_2020_08_31$09_01;
+
 import org.junit.Test;
 
 /**
@@ -34,4 +36,16 @@ public class HashCodeDemo {
         System.out.println(h);
         System.out.println('a' + 0);
     }
+
+    /**
+     * 输出结果
+     * val[0]=a
+     * val[0]的h=97
+     * val[1]=b
+     * val[1]的h=3105
+     * val[2]=c
+     * val[2]的h=96354
+     * 96354
+     * 97
+     */
 }
