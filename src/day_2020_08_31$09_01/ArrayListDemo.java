@@ -1,5 +1,7 @@
 package day_2020_08_31$09_01;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 
 /**
@@ -12,5 +14,15 @@ import java.util.ArrayList;
  * @version: 1.0
  */
 public class ArrayListDemo {
-    ArrayList demo=new ArrayList();
+    @Test
+    public void test(){
+        ArrayList demo=new ArrayList();
+        demo.add("1");
+        demo.add("2");
+        demo.add("3");
+        demo.add("4");
+        demo.add("5");
+        System.out.println(demo);
+    }
+
 }
