@@ -34,4 +34,5 @@ public class HashCodeDemo {
         System.out.println(h);
         System.out.println('a' + 0);
     }
+
 }
