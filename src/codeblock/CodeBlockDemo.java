@@ -35,7 +35,7 @@ public class CodeBlockDemo {
         System.out.println("构造代码块");//该class文件文件经过反编译后,会发现构造代码块的与构造方法一样,在编译的时候,会加构造方法一样的结构
     }
 
-    public  void test() {
+    public  void test(int i) {
         System.out.println("test");
         {
             System.out.println("我应该叫什么分类");
@@ -44,7 +44,7 @@ public class CodeBlockDemo {
 
     public static void main(String[] args) {
         CodeBlockDemo codeBlockDemo=new CodeBlockDemo();
-        codeBlockDemo.test();
+        codeBlockDemo.test(2);
         {
             System.out.println("main");
         }
